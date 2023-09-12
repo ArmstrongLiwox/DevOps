@@ -1,3 +1,8 @@
-# LAMP STAK PROJECT
+# LAMP STACK IMPLEMENTATION
 
-![Alt text](images/intro.png)
+## WEB STACK IMPLEMENTATION (Lamp stack) in AWS
+
+> sudo 
+
+``` this  done in full```
+
