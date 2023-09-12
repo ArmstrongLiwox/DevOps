@@ -183,7 +183,9 @@ sudo apt install apache2
 ```
 
 ![rebooting](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/45aa7e80-6c28-481a-86e0-ca00caea490e)
+
 ![rebooting services](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/527683c6-1ae7-48a7-8e5e-59dddf4953db)
+
 ![apache install done](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/36277dc5-808e-480d-a998-8a42b6be1fae)
 
 
