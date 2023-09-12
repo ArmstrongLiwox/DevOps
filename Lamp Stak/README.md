@@ -138,6 +138,7 @@ ___
 > Select London region
 ![select region](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/f9aba5c6-66c1-4db9-b823-c1f17d77e44c)
 
+> Create instance, and download key to PC.
 > Lanunch EC2 instance of t2micro family with Ubuntu server 22.04 LTS (HVM)
 ![launch instance](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/c9a15609-c30d-439b-a897-349aeea5ae0f)
 
@@ -155,8 +156,17 @@ ___
 > paste SSH address into git bash at the key location. press enter.
 ![connect with git](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/33b8b508-69d1-4753-af4b-a74be2c0fa4f)
 
+___
 
+## Installing Apache and Updating the Firewall
 
+### Step 1 - Installing Apache and Updating the Firewall
+Apache is a widely used, open-source web server software that serves web content to users' web browsers. It's known for its flexibility, security features, and scalability, making it a popular choice for hosting websites and web applications.
+
+> Insalling Apache using Ubuntu's package manager
+```
+sudo apt update
+```
 
 
 
