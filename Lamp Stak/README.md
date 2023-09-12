@@ -138,7 +138,7 @@ ___
 > Select London region
 ![select region](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/f9aba5c6-66c1-4db9-b823-c1f17d77e44c)
 
-> Lanunch EC2 instance of t2micro family with Ubuntu server 22.
+> Lanunch EC2 instance of t2micro family with Ubuntu server 22.04 LTS (HVM)
 ![launch instance](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/c9a15609-c30d-439b-a897-349aeea5ae0f)
 
 
