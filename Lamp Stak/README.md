@@ -47,10 +47,19 @@ Collectively these were originally called its modes, and the name chmod was chos
 
 The command **chown**, an abbreviation of change owner, is used on Unix and Unix-like operating systems to change 
 the owner of file system files, directories. 
-Unprivileged (regular) users who wish to change the group membership of a file that they own may use chgrp.
+Unprivileged (regular) users who wish to change the group membership of a file that they own may use ***chgrp***.
 The ownership of any file in the system may only be altered by a super-user. A user cannot give away ownership of a file, even when the user owns it. 
 Similarly, only a member of a group can change a file's group ID to that group.
 The command is available as a separate package for Microsoft Windows as part of the UnxUtils collection of native Win32 ports of common GNU Unix-like utilities. The chown command has also been ported to the IBM i operating system.
 
+### 3. what is TCP and UPD
 
+### TCP : tansmission control protocol
 
+The ***Transmission Control Protocol (TCP)*** is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the ***Internet Protocol (IP)***. Therefore, the entire suite is commonly referred to as ***TCP/IP***. ***TCP*** provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network. 
+Major internet applications such as the World Wide Web, email, remote administration, and file transferrely on TCP, which is part of the Transport Layer of the TCP/IP suite. SSL/TLS often runs on top of TCP.
+
+### UDP : user datagram protocol
+
+In computer networking, the ***User Datagram Protocol (UDP)*** is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets) to other hosts on an Internet Protocol (IP) network. 
+Within an IP network, UDP does not require prior communication to set up communication channels or data paths.
