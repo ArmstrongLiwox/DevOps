@@ -64,3 +64,56 @@ Major internet applications such as the World Wide Web, email, remote administra
 In computer networking, the ***User Datagram Protocol (UDP)*** is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets) to other hosts on an Internet Protocol (IP) network. 
 Within an IP network, UDP does not require prior communication to set up communication channels or data paths.
 
+There are several ports commonly used in web-related services and protocols. Here are some of the most common ones:
+
+1. **HTTP (Hypertext Transfer Protocol)**
+   - Port 80: This is the default port for unencrypted web traffic.
+
+2. **HTTPS (Hypertext Transfer Protocol Secure)**
+   - Port 443: This is the default port for secure, encrypted web traffic. It is used for secure communication over SSL/TLS.
+
+3. **FTP (File Transfer Protocol)**
+   - Port 21: FTP control port for sending commands.
+   - Port 20: FTP data port for sending data.
+
+4. **SMTP (Simple Mail Transfer Protocol)**
+   - Port 25: Used for sending email messages.
+
+5. **POP3 (Post Office Protocol version 3)**
+   - Port 110: Used for receiving email from a mail server.
+
+6. **IMAP (Internet Message Access Protocol)**
+   - Port 143: Used for retrieving email messages from a mail server.
+   - Port 993: IMAPS (IMAP over SSL/TLS) for secure email retrieval.
+
+7. **DNS (Domain Name System)**
+   - Port 53: Used for translating domain names into IP addresses and vice versa.
+
+8. **SSH (Secure Shell)**
+   - Port 22: Used for secure remote access and administration of servers.
+
+9. **Telnet**
+   - Port 23: Used for unencrypted remote access and administration of servers (considered insecure and often replaced by SSH).
+
+10. **RDP (Remote Desktop Protocol)**
+    - Port 3389: Used for remote desktop access on Windows-based systems.
+
+11. **HTTP/2**
+    - Port 8080: An alternate port for HTTP traffic, often used for proxy servers and testing.
+
+12. **HTTP/3 (QUIC)**
+    - Port 443: It can also use port 443 for secure, encrypted communication. HTTP/3 is a newer protocol that uses QUIC (Quick UDP Internet Connections) for improved performance.
+
+13. **WebSocket**
+    - Port 80 (ws) and Port 443 (wss): Used for full-duplex communication channels over a single TCP connection.
+
+14. **NTP (Network Time Protocol)**
+    - Port 123: Used for time synchronization between computers on a network.
+
+15. **SNMP (Simple Network Management Protocol)**
+    - Port 161: Used for network management and monitoring.
+
+16. **LDAP (Lightweight Directory Access Protocol)**
+    - Port 389: Used for directory services.
+
+These are some of the commonly used ports in web-related services and protocols. Keep in mind that there are many other ports used for various specific applications and services, and some applications may use non-standard ports for communication.
