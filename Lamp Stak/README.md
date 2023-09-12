@@ -28,9 +28,10 @@ There are usually six stages in this cycle: requirement analysis, design, develo
 LAMP (Linux, Apache, MySQL, PHP/Perl/Python) is an acronym denoting one of the most common software stacks for many of the web's most popular applications. 
 However, LAMP now refers to a generic software stack model and its components are largely interchangeable.
 Each letter in the acronym stands for one of its four open-source building blocks:
-**Linux** for the operating system
-**Apache** HTTP Server
-**MySQL** for the relational database management system
-**PHP, Perl, or Python** programming language
-The components of the LAMP stack are present in the software 
-repositories of most Linux distributions.
+
+>**Linux** for the operating system
+>**Apache** HTTP Server
+>**MySQL** for the relational database management system
+>**PHP, Perl, or Python** programming language.
+
+The components of the LAMP stack are present in the software repositories of most Linux distributions.
