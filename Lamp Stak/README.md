@@ -133,30 +133,37 @@ ___
 ### Step 0 - preparing prerequisites
 
 > Register  a new AWS account
+
 ![register AWS](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/8ce03528-fb3c-438b-9964-71e9864d09cf)
 
 > Select London region
+
 ![select region](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/f9aba5c6-66c1-4db9-b823-c1f17d77e44c)
 
 > Create instance, and download key to PC.
 > Lanunch EC2 instance of t2micro family with Ubuntu server 22.04 LTS (HVM)
+
 ![launch instance](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/c9a15609-c30d-439b-a897-349aeea5ae0f)
 
 ### Connecting to EC2 using the terminal
 
 > go to download location of private key
+
 ![key location](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/6b5bd92f-c66a-46dc-89af-31b4e0516f04)
 
 > pick instance and click connect
+
 ![connect](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/6d76137c-3abb-400d-bf5e-433b410f875a)
 
 > choose SSH client and copy SSH address
+
 ![SSH copy](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/c44d93dc-0ed1-4990-a864-e5e30e63b7b2)
 
 > paste SSH address into git bash at the key location. press enter.
+
 ![connect with git](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/33b8b508-69d1-4753-af4b-a74be2c0fa4f)
 
-___
+---
 
 ## Installing Apache and Updating the Firewall
 
