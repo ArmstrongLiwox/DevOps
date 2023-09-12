@@ -197,6 +197,19 @@ sudo systemctl status apache2
 ![apache running](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/6c6d72ec-b3da-4c8d-9263-778ceb83ee03)
 
 
+> Check how we can access it locally in our Ubuntu shell
+```
+curl http://localhost:80
+```
+
+![check localhost](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/6eb48c85-6e57-4f3f-a886-4c083e92d6d4)
+
+
+```
+curl http://127.0.0.1:80
+```
+
+
 
 
 
