@@ -33,14 +33,4 @@ Each letter in the acronym stands for one of its four open-source building block
 **MySQL** for the relational database management system
 **PHP, Perl, or Python** programming language
 The components of the LAMP stack are present in the software 
-repositories of most Linux distributi
-
-> sudo 
-
-``` 
-sudo apt update
-```
-
-`mega`
-
-gamer
+repositories of most Linux distributions.
