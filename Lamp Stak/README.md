@@ -39,12 +39,10 @@ The components of the LAMP stack are present in the software repositories of mos
 ### 3. what is *chmod* and *chown* commands in Linux
 
 ### chmod
-
 In Unix and Unix-like operating systems, **chmod** is the command and system call used to change the access permissions and the special mode flags ***(the setuid, setgid, and sticky flags)*** of file system objects (files and directories). 
 Collectively these were originally called its modes, and the name chmod was chosen as an abbreviation of change mode.
 
 ### chown
-
 The command **chown**, an abbreviation of change owner, is used on Unix and Unix-like operating systems to change 
 the owner of file system files, directories. 
 Unprivileged (regular) users who wish to change the group membership of a file that they own may use ***chgrp***.
@@ -52,18 +50,24 @@ The ownership of any file in the system may only be altered by a super-user. A u
 Similarly, only a member of a group can change a file's group ID to that group.
 The command is available as a separate package for Microsoft Windows as part of the UnxUtils collection of native Win32 ports of common GNU Unix-like utilities. The chown command has also been ported to the IBM i operating system.
 
-### 3. what is TCP and UPD
+### 4. what is TCP and UPD
 
 ### TCP : tansmission control protocol
-
 The ***Transmission Control Protocol (TCP)*** is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the ***Internet Protocol (IP)***. Therefore, the entire suite is commonly referred to as ***TCP/IP***. ***TCP*** provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network. 
 Major internet applications such as the World Wide Web, email, remote administration, and file transferrely on TCP, which is part of the Transport Layer of the TCP/IP suite. SSL/TLS often runs on top of TCP.
 
 ### UDP : user datagram protocol
-
 In computer networking, the ***User Datagram Protocol (UDP)*** is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets) to other hosts on an Internet Protocol (IP) network. 
 Within an IP network, UDP does not require prior communication to set up communication channels or data paths.
 
+### Difference between TCP and UDP
+TCP is reliable, ordered, and connection-oriented. It guarantees data delivery and order but has higher overhead.
+
+UDP is unreliable, unordered, and connectionless. It has lower overhead but doesn't guarantee delivery or order. 
+
+Choose based on your application's needs: TCP for reliability, UDP for low latency.
+
+### List of ports commonly used in Web
 There are several ports commonly used in web-related services and protocols. Here are some of the most common ones:
 
 1. **HTTP (Hypertext Transfer Protocol)**
@@ -116,5 +120,10 @@ There are several ports commonly used in web-related services and protocols. Her
 16. **LDAP (Lightweight Directory Access Protocol)**
     - Port 389: Used for directory services.
 
-These are some of the commonly used ports in web-related services and protocols. Keep in mind that there are many other ports used for various specific applications and services, and some applications may use non-standard ports for communication.
+### 5. What is VIM
+
+Vim is a powerful and extensible text editor known for its efficiency and keyboard-centric approach. 
+It operates in different modes, offers syntax highlighting, and is commonly used by programmers and system administrators for text and code editing.
+
+
 
