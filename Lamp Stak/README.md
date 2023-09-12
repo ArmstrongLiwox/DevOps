@@ -175,8 +175,24 @@ Apache is a widely used, open-source web server software that serves web content
 sudo apt update
 ```
 
+![sudo apt update](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/9fe7b05b-2482-4603-be80-1186995a9040)
+
+> Run apache2 installation package
+```
+sudo apt install apache2
+```
+
+![rebooting](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/45aa7e80-6c28-481a-86e0-ca00caea490e)
+![rebooting services](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/527683c6-1ae7-48a7-8e5e-59dddf4953db)
+![apache install done](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/36277dc5-808e-480d-a998-8a42b6be1fae)
 
 
+> Verify apache2 is running as a service in the OS
+```
+sudo systemctl status apache2
+```
+
+![apache running](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/6c6d72ec-b3da-4c8d-9263-778ceb83ee03)
 
 
 
