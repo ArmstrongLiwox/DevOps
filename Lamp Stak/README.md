@@ -209,6 +209,21 @@ curl http://localhost:80
 curl http://127.0.0.1:80
 ```
 
+> Test how Apache HTTP server can respond to request from the internet.
+
+http://35.179.92.176:80
+
+![check apache on web](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/09c5f4ac-33e8-46f4-bcec-5a8219d8a583)
+
+> Check Public IP address with command
+```
+curl -s http://169.254.169.254/latest/meta-data/public-ipv4
+```
+
+![check apache with command](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/cac20b68-acab-4ebb-b625-cc0a9992afbf)
+
+---
+
 
 
 
