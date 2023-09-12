@@ -4,7 +4,7 @@
 
 > sudo 
 
-```
-this  done in full
+``` 
+sudo apt update
 ```
 
