@@ -261,5 +261,12 @@ exit
 ![exit mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/9510524a-7ecf-4b9a-b897-7f1c886d087c)
 
 
+> Start Interactive script
+```
+sudo mysql_secure_installation
+```
+
+![mysql secure installation](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/a5c7171a-6fa2-4665-94fe-1da91a424a23)
+
 
 
