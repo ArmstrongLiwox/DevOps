@@ -224,8 +224,25 @@ curl -s http://169.254.169.254/latest/meta-data/public-ipv4
 
 ---
 
+## Installing MySQL
+### Step 2 - Installing MySQL
+> MySQL is relational database management system used within PHP environments.
+>Install MySQL server
+```
+sudo apt install mysql-server
+```
 
 ![install mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/08aafd52-7d18-40af-a14e-3a43d89feefa)
+
 ![mysql reboot](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/8c072496-6021-4cbb-8a77-1bdd1b7869b3)
+
 ![mysql installed ](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/b4ebce74-a193-4b1c-ac64-54fb7e53f4f7)
+
+> login to mysql console
+```
+sudo mysql
+```
+
+![mysql login](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/a75bcc83-1395-4522-9b33-1499ba107dbf)
+
 
