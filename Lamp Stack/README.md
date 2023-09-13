@@ -246,4 +246,26 @@ sudo mysql
 
 ![mysql login](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/a75bcc83-1395-4522-9b33-1499ba107dbf)
 
+> Run security script to remove some insecure default settings and lockdown access to your database system.
+
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+```
+
+![secure mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/678f4705-1236-451b-921f-8697eaa5fb4e)
+
+> Exit MySQL shell
+```
+exit
+```
+> start interactive script
+```
+sudo mysql_secure_installation
+```
+
+![secure mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/492be08b-49a6-44bd-bae2-80b3598bf770)
+
+![exit mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/37dc398e-61a4-4cca-bcea-6f6af5dffe6c)
+
+
 
