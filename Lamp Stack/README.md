@@ -395,7 +395,10 @@ sudo ls /etc/apache2/sites-available
 ![ls sites-available](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/9d600717-f2cf-4138-aa8d-4216b70d19e4)
 
 
-
+> Use a2ensite command to enable the new virtual host
+```
+sudo a2ensite projectlamp
+```
 
 
 
