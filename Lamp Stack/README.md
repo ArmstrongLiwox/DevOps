@@ -279,3 +279,17 @@ sudo apt install php libapache2-mod-php-mysql
 ```
 sudo apt install php8.1-cli
 ```
+![php install](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/4d169ac3-09dd-4622-b9d0-a319699f6e68)
+
+![php reload](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/16b2ee06-3514-4485-a78b-6802e7331b4e)
+
+![reboot php upgrades](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/95cc0214-ad1a-4745-afd3-86cb457d0f1d)
+
+
+```
+php -v
+```
+
+![php version](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/3c2c46bc-50e9-4afb-828f-b1f354baeffa)
+
+
