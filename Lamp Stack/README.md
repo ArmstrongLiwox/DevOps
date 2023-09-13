@@ -285,7 +285,7 @@ sudo apt install php8.1-cli
 
 ![reboot php upgrades](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/95cc0214-ad1a-4745-afd3-86cb457d0f1d)
 
-
+> Check PHP version
 ```
 php -v
 ```
