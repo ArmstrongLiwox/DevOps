@@ -225,6 +225,7 @@ curl -s http://169.254.169.254/latest/meta-data/public-ipv4
 ---
 
 ## Installing MySQL
+
 ### Step 2 - Installing MySQL
 > MySQL is relational database management system used within PHP environments.
 >Install MySQL server
