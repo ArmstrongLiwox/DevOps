@@ -355,18 +355,46 @@ sudo rm /var/www/projectlamp/index.php
 
 ### Step 4 - Creating a Virtual Host for your Website using Apache
 
-> Create a domain called Armstronglamp
-> Create a directory for Armstronglamp
-```
-sudo mkdir /var/www/Armstronglamp
-```
+> Create a domain called projectlamp
+> Create a directory for projectlamp
 
+```
+sudo mkdir /var/www/projectlamp
+```
 > Assign Ownership of the directory with the USER
 ```
-sudo chown -R $USER:$USER /var/www/Armstronglamp
+sudo chown -R $USER:$USER /var/www/projectlamp
 ```
+
+![mk dir projectlamp](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/ec9b18c5-5a45-4afb-8711-eb89705bbbd6)
+
+
 > Create and open a new configuration file in Apache's sites-available directory using your preferred command-line editor
 ```
-sudo vi /etc/apache2/sites-available/Armstronglamp.conf
+sudo vi /etc/apache2/sites-available/projectlamp.conf
 ```
+> Paste the bare-bone configuration by hitting on i on the keyboard.
+```
+<VirtualHost *:80>
+    ServerName projectlamp
+    ServerAlias www.projectlamp 
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/projectlamp
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+
+![paste bare-bone](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/1f0d985a-2f72-4483-9b74-7fa3228de6fa)
+
+> use ls command to show the new file in the sites-available directory
+```
+sudo ls /etc/apache2/sites-available
+```
+
+![ls sites-available](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/9d600717-f2cf-4138-aa8d-4216b70d19e4)
+
+
+
+
 
