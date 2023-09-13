@@ -293,11 +293,30 @@ php -v
 ![php version](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/3c2c46bc-50e9-4afb-828f-b1f354baeffa)
 
 > My version of PHP is
+
 PHP 8.1.2-1ubuntu2.14 (cli) (built: Aug 18 2023 11:41:11) (NTS)
 Copyright (c) The PHP Group
 Zend Engine v4.1.2, Copyright (c) Zend Technologies
 with Zend OPcache v8.1.2-1ubuntu2.14, Copyright (c), by Zend Technologies
 
+## Enable PHP on the website
 
+> Step 5 - Enable PHP on the website
+
+```
+sudo vim /etc/apache2/mods-enabled/dir.conf
+```
+```
+<IfModule mod_dir.c>
+        #Change this:
+        #DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+        #To this:
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+```
+
+![sudo vim](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/4e2dbb22-ed5f-4341-bbaf-ae7931b2dc82)
+
+![edit directoryindex](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/5d4f9f2d-b01b-47b0-82f9-fe2db46e1bcf)
 
 
