@@ -400,5 +400,39 @@ sudo ls /etc/apache2/sites-available
 sudo a2ensite projectlamp
 ```
 
+![enable projectlamp](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/c81044dc-cd13-4c08-bcde-95e74331885e)
+
+> Disable Apache's default website
+```
+sudo a2dissite 000-default
+```
+
+![disable default Apache website](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/6274e759-d59b-49b6-9712-6ae6f3b74a88)
+
+> Ensure configuration file contain no syntax error
+```
+sudo apache2ctl configtest
+```
+
+![syntax ok](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/ac42e179-828a-4e98-a150-f5a0484f2213)
+
+> Reload Apache for changes to take effect
+```
+sudo systemctl reload apache2
+```
+
+![reload apache](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/64b3426f-29a8-42c6-b4ce-8ae60cf198b5)
+
+
+> Create an index.html file in that location
+```
+sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html
+```
+
+![create index hmtl file](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/2f8dedce-2fc8-4eeb-a522-33fa111d764c)
+
+
+
+
 
 
