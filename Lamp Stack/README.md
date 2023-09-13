@@ -269,4 +269,11 @@ sudo mysql_secure_installation
 ![mysql secure installation](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/a5c7171a-6fa2-4665-94fe-1da91a424a23)
 
 
+## Installing PHP
+> Step 3 - Installing PHP
+
+> PHP is the component of our setup that wil process code to display dynamic content to the end user.
+```
+sudo apt install php libapache2-mod-php-mysql
+```
 
