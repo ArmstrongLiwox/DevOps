@@ -276,4 +276,6 @@ sudo mysql_secure_installation
 ```
 sudo apt install php libapache2-mod-php-mysql
 ```
-
+```
+sudo apt install php8.1-cli
+```
