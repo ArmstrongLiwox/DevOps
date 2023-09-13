@@ -320,3 +320,25 @@ sudo vim /etc/apache2/mods-enabled/dir.conf
 ![edit directoryindex](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/5d4f9f2d-b01b-47b0-82f9-fe2db46e1bcf)
 
 
+> Reload apache for changes to take effect
+```
+sudo systemctl reload apache2
+```
+![sudo vim](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/718909b8-267f-4e97-9376-e08a5fb914c8)
+
+> Create index.php file
+```
+vim /var/www/projectlamp/index.php
+```
+
+![vim create php](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/4f3830a1-bd28-4eca-aa97-022b47f00e34)
+
+
+> edit index.php file
+```
+<?php
+phpinfo();
+```
+
+
+
