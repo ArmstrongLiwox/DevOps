@@ -258,14 +258,18 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord
 ```
 exit
 ```
+
+![secure mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/492be08b-49a6-44bd-bae2-80b3598bf770)
+
+![exit mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/37dc398e-61a4-4cca-bcea-6f6af5dffe6c)
+
+
 > start interactive script
 ```
 sudo mysql_secure_installation
 ```
 
-![secure mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/492be08b-49a6-44bd-bae2-80b3598bf770)
 
-![exit mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/37dc398e-61a4-4cca-bcea-6f6af5dffe6c)
 
 
 
