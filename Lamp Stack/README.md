@@ -326,7 +326,7 @@ sudo systemctl reload apache2
 ```
 ![sudo vim](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/718909b8-267f-4e97-9376-e08a5fb914c8)
 
-> Create index.php file
+> Edit /etc/apache2/mods-enabled/dir.conf file
 ```
 vim /var/www/projectlamp/index.php
 ```
@@ -340,6 +340,9 @@ vim /var/www/projectlamp/index.php
 phpinfo();
 ```
 
+![paste php code](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/3f279c83-2f4f-4a09-8f73-b10dc59c972f)
+
+
 > Remove the file created
 ```
 sudo rm /var/www/projectlamp/index.php
@@ -347,4 +350,23 @@ sudo rm /var/www/projectlamp/index.php
 
 ![remove vim](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/a16e8983-913f-4a9a-9e0f-3e6ea2a0a4d9)
 
+
+## Creating a Virtual Host for your Website using Apache
+
+### Step 4 - Creating a Virtual Host for your Website using Apache
+
+> Create a domain called Armstronglamp
+> Create a directory for Armstronglamp
+```
+sudo mkdir /var/www/Armstronglamp
+```
+
+> Assign Ownership of the directory with the USER
+```
+sudo chown -R $USER:$USER /var/www/Armstronglamp
+```
+> Create and open a new configuration file in Apache's sites-available directory using your preferred command-line editor
+```
+sudo vi /etc/apache2/sites-available/Armstronglamp.conf
+```
 
