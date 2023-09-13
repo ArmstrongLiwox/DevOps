@@ -244,5 +244,22 @@ sudo apt install mysql-server
 sudo mysql
 ```
 
-
 ![mysql login](<images/mysql login.png>)
+
+> Run security script
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+```
+
+![secure mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/13a18210-a69c-4fa4-ae53-9fe65c4f905b)
+
+> Exit MySQL shell
+```
+exit
+```
+
+![exit mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/9510524a-7ecf-4b9a-b897-7f1c886d087c)
+
+
+
+
