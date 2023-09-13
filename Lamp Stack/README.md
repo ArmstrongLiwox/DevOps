@@ -340,5 +340,11 @@ vim /var/www/projectlamp/index.php
 phpinfo();
 ```
 
+> Remove the file created
+```
+sudo rm /var/www/projectlamp/index.php
+```
+
+![remove vim](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/a16e8983-913f-4a9a-9e0f-3e6ea2a0a4d9)
 
 
