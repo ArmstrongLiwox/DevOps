@@ -432,6 +432,13 @@ sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/met
 ![create index hmtl file](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/2f8dedce-2fc8-4eeb-a522-33fa111d764c)
 
 
+> Open website through browser
+```
+http://35.179.92.176:80
+```
+
+![open ip in browser](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/bf3ab7ad-b0b4-4c72-959c-f3eb172a6828)
+
 
 
 
