@@ -225,8 +225,7 @@ curl -s http://169.254.169.254/latest/meta-data/public-ipv4
 ---
 
 
-
-\
-
-
+![install mysql](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/08aafd52-7d18-40af-a14e-3a43d89feefa)
+![mysql reboot](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/8c072496-6021-4cbb-8a77-1bdd1b7869b3)
+![mysql installed ](https://github.com/ArmstrongLiwox/DevOps/assets/143335106/b4ebce74-a193-4b1c-ac64-54fb7e53f4f7)
 
